@@ -8,6 +8,8 @@ from algorithms.algorithms import *
 
 from taipy import Config
 
+Config.configure_job_executions(mode="standalone", max_nb_of_workers=2)
+
 reference_data_cfg = Config.configure_data_node("reference_data", "csv")
 compare_data_cfg = Config.configure_data_node("compare_data", "csv")
 num_cols_cfg = Config.configure_data_node("num_cols")

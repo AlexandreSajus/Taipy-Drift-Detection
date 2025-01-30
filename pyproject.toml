@@ -1,0 +1,12 @@
+[project]
+name = "demo-drift-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==1.26.1",
+    "pandas==2.1.1",
+    "scipy==1.11.3",
+    "taipy==4.0.2",
+]

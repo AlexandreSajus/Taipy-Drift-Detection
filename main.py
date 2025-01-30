@@ -25,4 +25,4 @@ if __name__ == "__main__":
     bp_data, sex_data = merge_data(ref_data, compare_data)
 
     gui = Gui(page=Drift)
-    gui.run(title="Drift Detection")
+    gui.run(title="Drift Detection", dark_mode=True)
